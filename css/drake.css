@@ -1,0 +1,252 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+body
+{
+	background-color: #000;
+}
+
+h1
+{
+    color: #fff;
+	font-size: 2.8em;
+	margin: 0;
+}
+
+h2
+{
+	color: white;
+	padding-top: 0px;
+	font-size: 1.5em;
+}
+
+h3
+{
+	color: white;
+	padding-top: 30px;
+	font-size: 1.5em;
+}
+
+p
+{
+	color: white;
+}
+header
+{
+	margin: 0;
+	padding: 2.5em 5em;
+	background-color: #000;
+	text-align: center;
+	display: block;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	float: right;
+}
+
+nav li
+{
+	display: inline-block;
+	float: right;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+	margin: 2px;
+    text-decoration: none;
+}
+
+.homeafbeelding
+{
+	margin-top: 30px;
+	margin-left: 125px;
+	width: 83%;
+}
+
+
+figure
+{
+	margin: 0;
+}
+
+.cover
+{
+	size: 50%;
+}
+
+figcaption
+{
+	color: #666;
+	font-size: 0.9em;
+	border-bottom: 1px solid #ddd;
+	margin: 1em 0;
+	padding: 0 0 1em 0;
+}
+
+article
+{
+	margin: 4% auto;
+	max-width: 600px;
+}
+
+.webshop
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+	list-style: none;
+	margin-top: 50px;
+	padding: 0;
+}
+
+.webshop img
+{
+	width: 100%;
+}
+
+.webshop li
+{
+	background-color: #fff;
+	padding: 0.5em;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	transition: all, 0.5s ease;
+}
+
+.webshop li:hover
+{
+	transform: rotate(5deg) scale(1.1);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+	z-index: 99;
+}
+
+.webshop .prijs
+{
+	font-size: 1.0em;
+	font-weight: bold;
+	background-color: #900;
+	color: #fff;
+	display: block;
+	width: 70px;
+	text-align: center;
+	padding: 26px 0;
+	border-radius: 100%;
+	transform: rotate(10deg);
+	position: absolute;
+	right: 1px;
+	top: 1px;
+}
+
+label
+{
+	display: block;
+	color: #999;
+	margin: 1em 0 0.5em 0;
+}
+
+input, textarea
+{
+	font-size: 1em;
+	padding: 0.8em;
+	border: 1px solid #ddd;
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	box-sizing: border-box;
+}
+
+.verstuurknop
+{
+	margin-top: 1.5em;
+}
+
+textarea
+{
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	height: 100px;
+	margin-bottom: 1em;
+}
+
+.cover5
+{
+	size: 50%;
+}
+
+.selected
+{
+	color: red;
+}
+
+ footer
+ {
+    text-align: center;
+	color: white;
+	display: block;
+	margin-top: 40px;
+ }
+
+ @media (max-width: 1000px)
+ {
+	.webshop
+	{
+	grid-template-columns: 1fr;
+	margin: 0 1em;
+	}
+
+	nav ul
+	{
+		float: none;
+	}
+
+	h1
+	{
+	font-size: 2em;
+	}
+
+	header
+	{
+		padding: 0;
+	}
+
+	article
+	{
+		margin: 5%;
+	}
+
+	.homeafbeelding
+	{
+		margin: 10%;
+	}
+
+	.cover
+	{
+		width: 70%;
+	}
+
+	homeafbeelding
+	{
+		width: 100%;
+		margin-left: 10px;
+	}
+	img
+	{
+		width: 100%:
+	}
+
+ }
